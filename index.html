@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom Text Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Custom Text Editor</h2>
+
+<div class="toolbar">
+  <button onclick="cmd('bold')">Bold</button>
+  <button onclick="cmd('italic')">Italic</button>
+  <button onclick="cmd('underline')">Underline</button>
+  <button onclick="cmd('strikeThrough')">Strike</button>
+
+  <button onclick="cmd('justifyLeft')">Left</button>
+  <button onclick="cmd('justifyCenter')">Center</button>
+  <button onclick="cmd('justifyRight')">Right</button>
+  <button onclick="cmd('justifyFull')">Justify</button>
+
+  <button onclick="changeCase('upper')">UPPERCASE</button>
+  <button onclick="changeCase('lower')">lowercase</button>
+  <button onclick="changeCase('cap')">Capitalize</button>
+
+  <select onchange="fontSize(this.value)">
+    <option value="1">10px</option>
+    <option value="3" selected>16px</option>
+    <option value="5">24px</option>
+    <option value="7">32px</option>
+  </select>
+
+  <input type="color" onchange="textColor(this.value)">
+
+  <button onclick="downloadText()">Download</button>
+  <button onclick="clearBox()">Clear</button>
+</div>
+
+<div id="editor" contenteditable="true"></div>
+
+<p id="count">Words: 0 | Characters: 0</p>
+
+<script src="script.js"></script>
+</body>
+</html>
