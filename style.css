@@ -1,7 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 24px;
-  background: #f0f2f5;
+  background: #f9fafb;
   min-height: 100vh;
   transition: background 0.3s ease, color 0.3s ease;
 }
@@ -10,11 +10,11 @@ h2 {
   text-align: center;
   font-size: 1.6rem;
   margin-bottom: 16px;
-  color: #222;
+  color: #435ab4;
 }
 
 .toolbar {
-  background: #fff;
+  background: #f8eff9;
   padding: 10px 14px;
   border: 1px solid #dde1e7;
   border-radius: 8px;
@@ -69,4 +69,3 @@ button:focus, select:focus, input:focus {
 .dark button:hover, .dark select:hover { background: #3e4250; }
 .dark #editor { background: #2a2d35; color: #e4e6eb; border-color: #3d4149; }
 .dark #count { color: #9aa0ae; }
-
