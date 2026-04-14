@@ -44,4 +44,29 @@ button:focus, select:focus, input:focus {
   border-color: #4a90e2;
   box-shadow: 0 0 0 3px rgba(74,144,226,0.15);
 }
+#editor {
+  min-height: 320px;
+  background: #fff;
+  border: 1px solid #dde1e7;
+  border-radius: 8px;
+  padding: 16px;
+  outline: none;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #222;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#editor:focus { border-color: #4a90e2; box-shadow: 0 0 0 3px rgba(74,144,226,0.15); }
+
+#count { margin-top: 12px; font-size: 0.875rem; font-weight: 600; color: #555; }
+
+.dark { background: #1a1c20; color: #e4e6eb; }
+.dark h2 { color: #e4e6eb; }
+.dark .toolbar { background: #2a2d35; border-color: #3d4149; }
+.dark button, .dark select, .dark input { background: #343740; color: #e4e6eb; border-color: #4a4f5a; }
+.dark button:hover, .dark select:hover { background: #3e4250; }
+.dark #editor { background: #2a2d35; color: #e4e6eb; border-color: #3d4149; }
+.dark #count { color: #9aa0ae; }
 
