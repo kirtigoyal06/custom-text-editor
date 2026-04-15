@@ -1,36 +1,33 @@
 # Custom Text Editor
 
-A simple and modern text editor built using HTML, CSS, and JavaScript.  
-It allows users to write and format text directly in the browser, similar to a mini MS Word editor.
-
----
+A simple text editor made using HTML, CSS and JavaScript.
 
 ## Features
+- Bold, Italic, Underline, Strike
+- Text Alignment
+- Uppercase, Lowercase, Capitalize
+- Font Size and Text Color
+- Dark Mode
+- Date and Time Insert
+- Word and Character Count
+- Text to Speech
+- Download as `.txt`
+- Auto Save using localStorage
 
-- Bold, Italic, Underline and Strike-through
-- Left, Center, Right and Justify alignment
-- Convert text to UPPERCASE, lowercase or Capitalize
-- Change font size
-- Change text color
-- Dark / Light mode
-- Insert current date and time
-- Text-to-speech support
-- Word count and character count
-- Clear all text
-- Download text as a `.txt` file
-- Auto-save using localStorage
-- Restore saved text after refresh
+## Preview
 
----
+![Custom Text Editor](screenshot.jpeg)
 
 ## Project Files
 
 ```text
-index.html   → Structure of the editor
-style.css    → Design and dark mode styling
-script.js    → All editor functionality
+index.html   → Structure<img width="1600" height="900" alt="screenshot jpeg" src="https://github.com/user-attachments/assets/4c0ee1b9-e213-489b-920a-0722cc7830cc" />
 
-## How to Run
+style.css    → Styling
+script.js    → Functionality
+screenshot.png → Project Screenshot
+#<img width="1600" height="900" alt="screenshot jpeg" src="https://github.com/user-attachments/assets/c5be53d9-14b6-452c-bcdc-3fb9f95614c6" />
+# How to Run
 
 1. Download or clone this repository
 2. Keep these files in the same folder:
@@ -53,4 +50,3 @@ The editor will start automatically.
 - When the page is refreshed or opened again, the saved text is restored automatically.
 
 ---
-
