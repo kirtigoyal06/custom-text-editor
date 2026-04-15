@@ -26,7 +26,7 @@ style.css       → Styling
 script.js       → Functionality
 screenshot.jpeg → Project Screenshot
 
-## How to Run
+## **How to Run**
 
 
 Download or clone this repository
