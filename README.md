@@ -25,6 +25,7 @@ index.html      → Structure
 style.css       → Styling
 script.js       → Functionality
 screenshot.jpeg → Project Screenshot
+```
 
 ## **How to Run**
 
