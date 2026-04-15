@@ -70,6 +70,23 @@ Dark mode works using a CSS class
 Text is saved automatically with localStorage
 
 
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- LocalStorage API
+- Speech Synthesis API
+
+
+## Future Improvements
+
+- Add Undo / Redo
+- Add PDF Download
+- Add Custom Fonts
+- Add Copy / Paste Buttons
+
+
 ## Live Demo
 
 [Open Project](https://kirtigoyal06.github.io/custom-text-editor/)
